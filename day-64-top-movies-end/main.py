@@ -20,13 +20,13 @@ This will install the packages from requirements.txt for this project.
 '''
 
 
-MOVIE_DB_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMWU4MDA5OGM4NTMyY2YzNjc2Y2U5YThmMTVmNjBkZSIsInN1YiI6IjY0YmZiN2UxMDU4MjI0MDBiMDc2ODdjZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tL8_wZ-ibX0G_PLgxpeBFaRIbK79Td6FK7bMyWRiimI"
+MOVIE_DB_API_KEY = "YOUR MOVIE DB KEY"
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'YOUR SECRET KEY'
 Bootstrap5(app)
 
 # CREATE DB
